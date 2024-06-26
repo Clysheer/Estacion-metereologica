@@ -1,1 +1,1 @@
-IA
+El sensor BMP180 es un sensor de presión atmosférica y temperatura barométrico de alta precisión fabricado por Bosch.                        puede proporcionar datos de temperatura, presión atmosférica y altitud.
