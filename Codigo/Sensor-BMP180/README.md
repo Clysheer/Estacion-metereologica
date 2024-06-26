@@ -1,1 +1,22 @@
-El sensor BMP180 es un sensor de presión atmosférica y temperatura barométrico de alta precisión fabricado por Bosch.                        puede proporcionar datos de temperatura, presión atmosférica y altitud.
+El sensor BMP180 es un sensor de presión atmosférica y temperatura barométrico de alta precisión fabricado por Bosch.                        puede proporcionar datos de temperatura, presión atmosférica y altitud.                                                                      
+                                                                                                                                             El sensor de presión barométrica BMP180 está diseñado para leer la presión atmosférica y de esta forma estimar indirectamente la Altura sobre el nivel del mar. La presión atmosférica es la fuerza que ejerce el aire (atmósfera) sobre la superficie de la tierra. La presión atmosférica se debe al peso de la columna de aire sobre determinada área, es por esta razón que al medir la presión atmosférica en puntos con mayor altitud, el valor de la presión es menor por ser menor la cantidad de aire. La presión atmosférica también varía con el clima, principalmente con la temperatura, pues esta hace cambiar la densidad del aire, que se ve reflejado en un cambio en el peso y por consiguiente en un cambio de presión.                                                                                                                                                                                                                                                                                                                                                                                  Características Técnicas                                                                                                                                                                                                                                                             
+Mediciones:                                                                                                                              
+Presión atmosférica absoluta                                                                                                              
+Temperatura ambiente.                                                                                                                                                                                                                                        
+Precisión:                                                                                                                                
+Presión:                                                                                                                                  
+   Rango: 300 hPa a 1100 hPa.                                                                                                              
+   Resolución: 0.01 hPa.                                                                                                                      
+   Precisión: ±1 hPa.                                                                                                                      
+Temperatura:  
+  Rango: -40°C a +85°C.                                                                                                                      
+  Resolución: 0.1°C.                                                                                                                                              
+  Precisión: ±2°C.                                                                                                                                    
+Voltaje de Operación: 1.8V a 3.6V (generalmente se usa con 3.3V o 5V).                                                                                  
+Interfaz de Comunicación: Utiliza el protocolo I2C para la comunicación con microcontroladores.                                                                                                                                                                                                                                          
+El sensor BMP180 tiene cuatro pines:
+
+VCC: Alimentación (3.3V a 5V).                                                                                                                    
+GND: Conexión a tierra.                                                                                                                                        
+SCL: Línea de reloj del bus I2C.                                                                                                                          
+SDA: Línea de datos del bus I2C.
