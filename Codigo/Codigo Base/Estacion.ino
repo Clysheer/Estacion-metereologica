@@ -135,7 +135,7 @@ void Redes(){
       DynamicJsonDocument doc(2048);
       deserializeJson(doc, JSON_Data);
       JsonObject obj = doc.as<JsonObject>();
-      // Mostrar la información meteorológica actual en el monitor serie
+      // Mostrar la información meteorológica actual
     
       const float tempat = obj["main"]["temp"].as<float>();
       const float humat = obj["main"]["humidity"].as<float>();
