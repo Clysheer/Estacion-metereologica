@@ -136,7 +136,7 @@ void Redes(){
       deserializeJson(doc, JSON_Data);
       JsonObject obj = doc.as<JsonObject>();
 
-      const float tempat = obj["main"]["temp"].as<float>();       // // Mostrar la información meteorológica
+      const float tempat = obj["main"]["temp"].as<float>();       // Mostrar la información meteorológica
       const float humat = obj["main"]["humidity"].as<float>();
       Atmosferico(tempat, humat);
       
